@@ -1,0 +1,21 @@
+body {
+
+}
+div {
+    margin: -4px;
+    height: 800px;
+    width:  auto;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.main > div {
+    flex: 1;
+}
+.firstsctn {
+    background-color: #1F2937;
+    color:#F9FAF8
+}
+.thirdsctn {
+    background-color: #E5E7EB;
+}
