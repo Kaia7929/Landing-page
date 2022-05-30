@@ -1,8 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+body > div {
+    margin: -8px;
+}
 .first-section {
     background-color: #1F2937;
+    padding: 10px 5px;
 }
 .header-logo {
     font-size: 24px;
@@ -20,7 +24,7 @@ body {
 .third-section {
     background-color: #E5E7EB;
 }
-.call-to-action, button {
+.call-to-action{
     background-color: #3882F6;
 }
 footer {
@@ -38,4 +42,45 @@ footer {
 }
 #quote-author {
     font-weight:bolder;
+}
+.nav-like {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-like-list-option {
+    display: inline;
+    list-style-type: none;
+    padding: 8px;
+}
+.website-praise {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.website-praise-image {
+    width: 350px;
+    height: auto;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+.second-section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.random-information {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+}
+.images {
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
 }
