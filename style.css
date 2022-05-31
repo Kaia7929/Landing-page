@@ -20,9 +20,12 @@ body > div {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    width: 350px;
+    height: 75px;
 }
 .third-section {
     background-color: #E5E7EB;
+    padding: 70px;
 }
 .call-to-action{
     background-color: #3882F6;
@@ -54,8 +57,9 @@ footer {
 }
 .website-praise {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 40px;
+    gap: 100px;
 }
 .website-praise-image {
     width: 350px;
@@ -72,6 +76,10 @@ button {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
+    padding: 50px;
+}
+.subtext {
+    width: 200px;
 }
 .random-information {
     display: flex;
@@ -83,4 +91,7 @@ button {
     height: 200px;
     width: 200px;
     border-radius: 8px;
+}
+.praise-text {
+    width: 460px;
 }
