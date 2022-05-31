@@ -35,6 +35,11 @@ body > div {
 }
 footer {
     background-color: #1F2937;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin: -8px;
+    color: white;
 }
 .random-information {
     font-size: 36px;
@@ -80,7 +85,7 @@ button {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 80px;
 }
 .subtext {
     width: 200px;
@@ -100,5 +105,18 @@ button {
     width: 460px;
 }
 .fourth-section {
-    
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.call-to-action {
+    padding: 40px;
+    width: 600px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.action-button {
+    margin: auto;
 }
