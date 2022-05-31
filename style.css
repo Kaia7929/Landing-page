@@ -26,6 +26,9 @@ body > div {
 .third-section {
     background-color: #E5E7EB;
     padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 .call-to-action{
     background-color: #3882F6;
@@ -39,12 +42,13 @@ footer {
     color: #1F2937;
 }
 .quote {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     color: #1F2937;
 }
 #quote-author {
     font-weight:bolder;
+    align-self: flex-end;
 }
 .nav-like {
     display: flex;
@@ -94,4 +98,7 @@ button {
 }
 .praise-text {
     width: 460px;
+}
+.fourth-section {
+    
 }
